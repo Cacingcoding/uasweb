@@ -1,0 +1,39 @@
+#pertama{
+    .container{
+        margin: auto;
+        width: 90%;  
+        header{
+            justify-content: space-between;
+            display:flex;
+            .kiri{
+                ul{
+                    display:flex;
+                    li{
+                        padding: 20px;
+                    }
+                }
+            }
+            .tengah{
+                img{
+                    width: 90px;
+                }
+            }
+            .kanan{
+                ul{
+                    display: flex;
+                    li{
+                        padding: 20px;
+                    }
+                }
+            }
+            .tengahkanan{
+                img{
+                    widows: 25px;
+                }
+            }
+            .bacround{
+                width: 20px;
+            }
+        }
+    }
+}
